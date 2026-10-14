@@ -72,7 +72,16 @@ ssh-keygen -lf gateway-host-keys.txt
 
 ### SSH 登录参考
 
-有关 SSH 登录的背景资料，可参考外部项目 [yurt-page/Kankun_KK-SP3](https://github.com/yurt-page/Kankun_KK-SP3#getting-remote-root-shell-access)。本项目文档不列出具体密码，请使用自己设备的实际 SSH 凭据。
+GitHub 项目 [Kankun_KK-SP3](https://github.com/yurt-page/Kankun_KK-SP3#getting-remote-root-shell-access) 记录了控客早期智能插座的 SSH 登录密码，以下整理仅供参考：
+
+| 用户名 | 密码 | 适用情况 |
+| --- | --- | --- |
+| `root` | `p9z34c` | KK-SP3 项目记录 |
+| `root` | `admin` | KK-SP3 项目记录 |
+| `root` | `1234` | KK-SP3 项目记录 |
+| `root` | 空密码 | 部分未设置 root 密码的 OpenWrt 系统 |
+
+空密码能否用于 SSH 登录取决于设备的 SSH 服务配置；上述项目中的免密码说明针对 Telnet，不能据此保证 SSH 支持空密码。
 
 该外部资料针对 KK-SP3 智能插座，与本项目验证的 KK-CC-G12W 主机不同；其中的登录信息和操作步骤仅供参考，不保证适用。集成不会自动尝试参考密码。
 
