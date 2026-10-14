@@ -39,6 +39,10 @@
 1. 在 HACS 的「自定义存储库」中添加 `https://github.com/YyyQq-C/home-assistant-konke`，类别选择「集成」。
 2. 下载「控客 Konke」，重启 Home Assistant，再通过设备与服务添加集成。
 
+也可使用 My Home Assistant 快捷链接（需已安装 HACS）：
+
+[![在 Home Assistant 中打开 HACS 仓库](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=YyyQq-C&repository=home-assistant-konke&category=integration)
+
 本项目提供 HACS 自定义仓库安装结构；不表示已经进入 HACS 默认列表。
 
 ## 核对主机公钥并配置
